@@ -1,0 +1,88 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background: url('/img/background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 2rem white;
+    margin: 3rem 5rem;
+    border-radius: 2rem;
+}
+
+.background{
+    background: rgba(255, 255, 255, 0.85);
+    display: flex;
+    flex-wrap: wrap;
+    color: #2b272b;
+    text-align: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+h1{
+    padding: 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.description{
+    min-height: 20rem;
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 1rem;
+}
+
+.center{
+    margin: .2rem auto;
+}
+
+.center img{
+    height: 12rem;
+}
+
+.passive{
+    min-height: 20rem;
+    padding: .5rem 1rem;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.passive p{
+    margin: auto 0;
+}
+
+.stats{
+    min-height: 20rem;
+    padding: .5rem 1rem;
+    min-width: 8rem;
+    max-width: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.type{
+    margin: .3rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.type h3{
+    margin: auto 0;
+}
+
+.type img{
+    margin: auto .5rem;
+    height: 2.5rem;
+}
+
+.stat{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

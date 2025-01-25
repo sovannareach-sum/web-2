@@ -1,0 +1,152 @@
+.container{
+    padding-bottom: 1.5rem;
+    padding-top: 2.4rem;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 1.4rem;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    margin: 0 3rem;
+}
+
+#image{
+    margin: .6rem auto;
+    cursor: pointer;
+    width: 36rem;
+    box-shadow: 0 0 1rem goldenrod;
+    transition: .24s ease-in-out;
+}
+
+#image:hover{
+    box-shadow: 0 0 1rem white;
+    transform: scale(1.15);
+}
+
+.featured, .lightcone{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: .5rem;
+    height: 0;
+    opacity: 0;
+    background-color: rgba(0, 103, 121, 0);
+    transition: .3s ease-in-out;
+    z-index: -1;
+}
+
+.featured.show, .lightcone.show{
+    height: 100%;
+    box-shadow: 0 0 2rem rgb(0, 103, 121);
+    margin-top: 1.4rem;
+    border-radius: 1rem;
+    opacity: 1;
+    z-index: 1;
+}
+
+.featured-character img, .featured-lightcone img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.background-5star{
+    background-color: goldenrod;
+    border-radius: 1rem;
+    padding: .15rem .6rem;
+    margin: 0 auto;
+}
+
+.background-4star{
+    background-color: purple;
+    border-radius: 1rem;
+    padding: .15rem .6rem;
+    margin: 0 auto;
+}
+
+.featured-character, .featured-lightcone{
+    text-align: center;
+    margin: .05rem .4rem;
+    color: white;
+}
+
+
+
+/* For Easy Copying */
+@media (min-width: 0px) and (max-width: 599.98px) {
+    #image{
+        width: 50%;
+    }
+    .featured-character img, .featured-lightcone img{
+        width: 1.1rem;
+        height: 1.1rem;
+    }
+
+    .container{
+        font-size: 50%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767.98px) {
+    #image{
+        width: 50%;
+    }
+    .featured-character img, .featured-lightcone img{
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+
+    .container{
+        font-size: 75%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #image{
+        width: 50%;
+    }
+    .featured-character img, .featured-lightcone img{
+        width: 2.6rem;
+        height: 2.6rem;
+    }
+
+    .featured-character{
+        font-size: 80%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #image{
+        width: 50%;
+    }
+    .featured-character img, .featured-lightcone img{
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+
+    .featured-character{
+        font-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .featured-character{
+        font-size: .8rem;
+    }
+} 

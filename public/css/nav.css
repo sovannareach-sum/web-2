@@ -1,0 +1,95 @@
+nav{
+    width: 100%;
+    height: fit-content;
+    background: darkgoldenrod;
+    box-shadow: 0 0 4rem goldenrod;
+    padding: .5rem 0;
+}
+
+.split{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 2rem;
+}
+
+.nav-left{
+    margin: auto 0;
+    transition: ease-in-out .3s;
+}
+
+.nav-left a img{
+    height: 4.5rem;
+}
+
+.nav-option{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-option a{
+    font-size: 1.6rem;
+    margin: auto;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: auto 1.2rem;
+    transition: ease-in-out .3s;
+}
+
+.nav-option a:hover{
+    color: #2b272b;
+    transform: scale(1.2);
+}
+
+.nav-left:hover{
+    transform: scale(1.2);
+}
+
+
+@media (min-width: 0px) and (max-width: 599.98px) {
+    .nav-left a img{
+        height: 2.4rem;
+    }
+
+    .nav-option a{
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767.98px) {
+    .nav-left a img{
+        height: 3.2rem;
+    }
+
+    .nav-option a{
+        font-size: .8rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav-left a img{
+        height: 3.6rem;
+    }
+
+    .nav-option a{
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .nav-left a img{
+        height: 4rem;
+    }
+
+    .nav-option a{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav-option a{
+        font-size: 1.6rem;
+    }
+} 

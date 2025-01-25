@@ -1,0 +1,212 @@
+.container{
+    margin: 3.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    color: white;
+    text-align: start;
+    white-space: break-spaces;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+iframe{
+    width: 35rem;
+    height: 20rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 .8rem white;
+}
+
+.info{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.flex h1{
+    margin: auto 0;
+}
+
+.flex img{
+    height: 6rem;
+    width: 6rem;
+}
+
+.flex h3{
+    margin: auto 1rem;
+}
+
+.video{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.video img{
+    height: 18rem;
+    margin: 1rem auto;
+    background-image: url(/img/relic_bg.webp);
+    border-radius: 50%;
+}
+
+.section{
+    width: 40rem;
+    border-radius: 3rem;
+    padding: 2rem;
+    background-image: url(/img/relic_bg.webp);
+    margin: 1rem auto;
+}
+
+@media (min-width: 0px) and (max-width: 599.98px) {
+    h1{
+        font-size: 1rem;
+    }
+
+    .flex img{
+        height: 2.4rem;
+        width: 2.4rem;
+    }
+
+    .video img{
+        height: 6rem;
+    }
+
+    .section{
+        width: 16rem;
+    }
+
+    iframe{
+        width: 16rem;
+        height: 10rem;
+    }
+
+    .info{
+        width: 30rem;
+        padding: 0 .5rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767.98px) {
+    h1{
+        font-size: 1.4rem;
+    }
+
+    .flex img{
+        height: 2.8rem;
+        width: 2.8rem;
+    }
+
+    .video img{
+        height: 8rem;
+    }
+
+    .section{
+        width: 20rem;
+    }
+
+    iframe{
+        width: 24rem;
+        height: 12rem;
+    }
+
+    .info{
+        width: 38rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1{
+        font-size: 1.8rem;
+    }
+
+    .flex img{
+        height: 3.2rem;
+        width: 3.2rem;
+    }
+
+    .video img{
+        height: 10rem;
+    }
+
+    .section{
+        width: 24rem;
+    }
+
+    iframe{
+        width: 26rem;
+        height: 14rem;
+    }
+
+    .info{
+        width: 42rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1{
+        font-size: 2.2rem;
+    }
+
+    .flex img{
+        height: 3.6rem;
+        width: 3.6rem;
+    }
+
+    .video img{
+        height: 12rem;
+    }
+
+    .section{
+        width: 32rem;
+    }
+
+    iframe{
+        width: 28rem;
+        height: 16rem;
+    }
+
+    .info{
+        width: 36rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    h1{
+        font-size: 2.4rem;
+    }
+
+    .flex img{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .video img{
+        height: 14rem;
+    }
+
+    .section{
+        width: 32rem;
+    }
+
+    iframe{
+        width: 32rem;
+        height: 18rem;
+    }
+
+    .info{
+        width: 48rem;
+    }
+} 
